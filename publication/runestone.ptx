@@ -8,7 +8,7 @@
         <version include="main color novideo proteus"/>
     </source>
 
-    <webwork server="https://vmi-math.com/webwork2" course="apex"/>
+    <!-- <webwork server="https://webwork-ptx.aimath.org" /> -->
 
     <common>
       <tableofcontents level="2"/>
