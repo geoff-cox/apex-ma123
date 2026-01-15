@@ -5,23 +5,7 @@
   <p>
     In <xref ref="sec_limit_intro"/>
     we explored the concept of the limit without a strict definition,
-    meaning we could only make approximations.
-    In the previous section we gave the definition of the limit and demonstrated how to use it to verify our approximations were correct.
-    Thus far, our method of finding a limit is
-    <ol>
-      <li>
-        make a really good approximation either graphically or numerically, and
-      </li>
-      <li>
-        verify our approximation is correct using a
-        <m>\varepsilon</m>-<m>\delta</m> proof.
-      </li>
-    </ol>
-  </p>
-
-  <p>
-    Recognizing that <m>\varepsilon</m>-<m>\delta</m> proofs are cumbersome,
-    this section gives a series of theorems which allow us to find limits much more quickly and intuitively.
+    meaning we could only make approximations. Thus far, our method of finding a limit is make a really good approximation either graphically or numerically.
   </p>
 
   <p>
@@ -346,19 +330,6 @@
       </p>
     </solution>
   </example>
-
-  <p>
-    It was likely frustrating in <xref ref="sec_limit_def"/>
-    to do a lot of work with <m>\varepsilon</m> and <m>\delta</m> to prove that
-    <me>
-      \lim_{x\to 2} x^2 = 4
-    </me>
-    as it seemed fairly obvious.
-    The previous theorems state that many functions behave in such an
-    <q>obvious</q> fashion,
-    as demonstrated by the rational function in
-    <xref ref="ex_limit_rat"/>.
-  </p>
 
   <p>
     Polynomial and rational functions are not the only functions to behave in such a predictable way.
@@ -1557,38 +1528,6 @@
   <exercises>
     <subexercises xml:id="TaC-limit-analytically">
       <title>Terms and Concepts</title>
-
-      <exercise label="TaC-limit-analytically-1">
-        <!-- <webwork xml:id="webwork-TaC-limit-analytically-1"> -->
-          <statement>
-            <p>
-              Explain in your own words,
-              without using <m>\varepsilon</m>-<m>\delta</m> formality,
-              why <m>\lim\limits_{x\to c}b=b</m>.
-            </p>
-            <!-- <p>
-              <var form="essay"/>
-            </p> -->
-          </statement>
-          <response />
-        <!-- </webwork> -->
-      </exercise>
-
-      <exercise label="TaC-limit-analytically-2">
-        <!-- <webwork xml:id="webwork-TaC-limit-analytically-2"> -->
-          <statement>
-            <p>
-              Explain in your own words,
-              without using <m>\varepsilon</m>-<m>\delta</m> formality,
-              why <m>\lim\limits_{x\to c}x=c</m>.
-            </p>
-            <!-- <p>
-              <var form="essay"/>
-            </p> -->
-          </statement>
-          <response />
-        <!-- </webwork> -->
-      </exercise>
 
       <exercise label="TaC-limit-analytically-3">
         <!-- <webwork xml:id="webwork-TaC-limit-analytically-3"> -->

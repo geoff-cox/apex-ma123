@@ -3,7 +3,7 @@
   <title>Limits Involving Infinity</title>
   <introduction>
     <p>
-      In <xref ref="def_limit"/> we stated that in the equation <m>\lim_{x\to c}f(x) = L</m>, both <m>c</m> and <m>L</m> were numbers.
+      Previously we stated that in the equation <m>\lim_{x\to c}f(x) = L</m>, both <m>c</m> and <m>L</m> were numbers.
       In this section we relax that definition a bit by considering situations when it makes sense to let <m>c</m> and/or <m>L</m> be <q>infinity.</q>
     </p>
 
@@ -127,23 +127,6 @@
       <caption>Video presentation of <xref ref="def_limit_of_infinity"/></caption>
       <video youtube="UVhqWmKqHtw" label="vid_limit_inf_defn"/>
     </figure>
-
-
-    <p>
-      The first definition is similar to the
-      <m>\varepsilon</m>-<m>\delta</m> definition in <xref ref="def_limit"/>
-      from <xref ref="sec_limit_def"/>.
-      In that definition, given any (small) value <m>\varepsilon</m>,
-      if we let <m>x</m> get close enough to <m>c</m>
-      (within <m>\delta</m> units of <m>c</m>)
-      then <m>f(x)</m> is guaranteed to be within <m>\varepsilon</m> of <m>L</m>.
-      Here, given any (large) value <m>N</m>,
-      if we let <m>x</m> get close enough to <m>c</m>
-      (within <m>\delta</m> units of <m>c</m>),
-      then <m>f(x)</m> will be at least as large as <m>N</m>.
-      In other words, if we get close enough to <m>c</m>,
-      then we can make <m>f(x)</m> as large as we want.
-    </p>
 
     <p>
       It is important to note that by saying
@@ -799,11 +782,6 @@
       The video in <xref ref="vid_limit_at_inf_ex_using_defn"/> shows how to prove the result from <xref ref="ex_hzasy1"/> using the limit definition.
     </p>
 
-    <figure xml:id="vid_limit_at_inf_ex_using_defn" component="video" vshift="0">
-      <caption>Using an <m>\varepsilon</m>-<m>\delta</m> proof with <xref ref="def_limit_at_infinity"/> in <xref ref="ex_hzasy1"/></caption>
-      <video youtube="kYmfeq-qKiI" label="vid_limit_at_inf_ex_using_defn"/>
-    </figure>
-
     <p>
       Horizontal asymptotes can take on a variety of forms.
       <xref ref="fig_hzasya"/>
@@ -929,9 +907,6 @@
       <m>1/x</m> gets smaller and smaller, approaching <m>0</m>.
       We can, in fact,
       make <m>1/x</m> as small as we want by choosing a large enough value of <m>x</m>.
-      Given <m>\varepsilon</m>,
-      we can make <m>1/x\lt \varepsilon</m> by choosing <m>x \gt 1/\varepsilon</m>.
-      Thus we have <m>\lim_{x\to\infty} 1/x=0</m>.
     </p>
 
     <p>

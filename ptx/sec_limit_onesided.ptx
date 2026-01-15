@@ -42,15 +42,6 @@
   <p>
     In this section we explore in depth the concepts behind
     <xref ref="lim_DNE_lr"/> by introducing the <em>one-sided limit</em>.
-    We begin with formal definitions that are very similar to the
-    definition of the limit given in <xref ref="sec_limit_def"/>,
-    but the notation is slightly different and <q><m>x\neq c</m></q>
-    is replaced with either <q><m>x\lt c</m></q> or <q><m>x \gt c</m>.</q>
-  </p>
-  <p>
-    There is a slightly different definition for a left-hand limit,
-    than for a right-hand limit,
-    but both have a lot in common with <xref ref="def_limit"/>.
   </p>
 
   <definition xml:id="def_onesidedlimit">
@@ -73,11 +64,7 @@
               <m>c</m> is <m>L</m>) is denoted by
               <me>
                 \lim_{x\to c^-} f(x) = L
-              </me>,
-              and means that for any <m>\varepsilon \gt 0</m>,
-              there exists <m>\delta \gt 0</m> such that for all
-              <m>x\in (a,c)</m>, if <m>\abs{x - c} \lt  \delta</m>,
-              then <m>\abs{f(x) - L} \lt  \varepsilon</m>.
+              </me>.
             </p>
           </li>
 
@@ -96,11 +83,7 @@
               <m>c</m> is <m>L</m>) is denoted by
               <me>
                 \lim_{x\to c^+} f(x) = L
-              </me>,
-              and means that for any <m>\varepsilon \gt 0</m>,
-              there exists <m>\delta \gt 0</m> such that for all
-              <m>x\in (c,b)</m>, if <m>\abs{x - c} \lt  \delta</m>,
-              then <m>\abs{f(x) - L} \lt  \varepsilon</m>.
+              </me>.
             </p>
           </li>
         </dl>

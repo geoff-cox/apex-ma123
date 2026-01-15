@@ -355,55 +355,6 @@
         <!-- </webwork> -->
       </exercise>
 
-      <exercise label="ex-limit-infinity-review-1">
-        <!-- <webwork xml:id="webwork-ex-limit-infinity-review-1"> -->
-          <statement>
-            <p>
-              Use an <m>\varepsilon</m>-<m>\delta</m> proof to prove that <m>\lim\limits_{x\to 1}(5x-2)=3</m>.
-            </p>
-            <!-- <p>
-              <var form="essay"/>
-            </p> -->
-          </statement>
-          <response />
-          
-          <solution>
-            <p>
-              Let <m>\varepsilon \gt 0</m> be given.
-              We wish to find <m>\delta\gt 0</m> such that when <m>\abs{x-1}\lt\delta</m>,
-              <m>\abs{f(x)-3}\lt\varepsilon</m>.
-            </p>
-            <p>
-              First, some preliminary investigation to find a suitable <m>\delta</m>.
-              Consider <m>\abs{f(x)-3}\lt\varepsilon</m>:
-              <md>
-                <mrow>\abs{f(x)-3}\amp\lt\varepsilon</mrow>
-                <mrow>\abs{(5x-2)-3}\amp\lt\varepsilon</mrow>
-                <mrow>\abs{5x-5}\amp\lt\varepsilon</mrow>
-                <mrow>\abs{x-1}\amp\lt\varepsilon/5</mrow>
-              </md>
-              Since we want to start with <m>\abs{x-1}\lt\delta</m>,
-              this suggests we let <m>\delta=\varepsilon/5</m>.
-            </p>
-            <p>
-              Now we can apply the definition.
-              <md>
-                <mrow>\abs{x-1}\amp\lt\delta</mrow>
-                <mrow>\abs{x-1}\amp\lt\varepsilon/5</mrow>
-                <mrow>-\varepsilon/5\lt x-1\amp\lt\varepsilon/5</mrow>
-                <mrow>-\varepsilon\lt 5(x-1)\amp\lt\varepsilon</mrow>
-                <mrow>-\varepsilon\lt 5x-5\amp\lt\varepsilon</mrow>
-                <mrow>-\varepsilon\lt (5x-2)-3\amp\lt\varepsilon</mrow>
-                <mrow>\abs{(5x-2)-3}\amp\lt\varepsilon</mrow>
-              </md>.
-              In other words,
-              <m>\abs{x-1}\lt\delta</m> implies <m>\abs{(5x-2)-3}\lt\varepsilon</m>.
-              This is what we needed to prove.
-            </p>
-          </solution>
-        <!-- </webwork> -->
-      </exercise>
-
       <exercise label="ex-limit-infinity-review-2">
         <webwork xml:id="webwork-ex-limit-infinity-review-2">
           <pg-code>

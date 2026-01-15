@@ -21,7 +21,6 @@
   </introduction>
 
   <xi:include href="sec_limit_intro.ptx"/>
-  <xi:include href="sec_limit_def.ptx"/>
   <xi:include href="sec_limit_analytically.ptx"/>
   <xi:include href="sec_limit_onesided.ptx"/>
   <xi:include href="sec_limit_continuity.ptx"/>
@@ -40,11 +39,6 @@
         <li>
           <p>
             found accessible ways to approximate their values numerically and graphically,
-          </p>
-        </li>
-        <li>
-          <p>
-            developed a not-so-easy method of proving the value of a limit (<m>\varepsilon</m>-<m>\delta</m> proofs),
           </p>
         </li>
         <li>
